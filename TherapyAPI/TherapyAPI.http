@@ -1,0 +1,11 @@
+@TherapyAPI_HostAddress = http://localhost:5112
+
+GET {{TherapyAPI_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{TherapyAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
